@@ -87,7 +87,7 @@ int numbers = 5; // User will enter this many numbers.
 int input;
 
 Console.WriteLine("You will be prompted to enter 5 numbers and I will add them for you.");
-while (count < numbers)
+while (countTask < numbers)
 {
     Console.WriteLine("Please enter a number:");
     input = Convert.ToInt32(Console.ReadLine());
